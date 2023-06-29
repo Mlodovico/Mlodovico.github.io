@@ -36,11 +36,15 @@
 
 .body-sector {
   width: 50vw;
-  height: 90vh;
+  min-height: 60vh;
   margin: 0px 10px;
   flex-wrap: wrap;
   border-radius: 8px;
   background: rgba(112, 128, 144, 0.7);
+}
+
+.mobile-sector-only {
+  display: none;
 }
 
 .body-sector p {
@@ -67,17 +71,33 @@
   background: rgba(119, 136, 153, 0.8);
 }
 
+.card {
+  height: 80%;
+}
+
 @media (max-width: 1000px) {
+  .App {
+    display: block;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mobile-sector-only {
+    width: 80vw;
+    height: 20vh;
+    display: flex;
+    align-self: center;
+    margin: 0px 10px;
+    border-radius: 8px;
+    background: rgba(112, 128, 144, 0.7);
+  }
+
   .category-sector {
     display: none;
   }
 
   .body-sector {
     width: 80vw;
-    height: 90vh;
-  }
-
-  .App {
-    justify-content: center;
   }
 }

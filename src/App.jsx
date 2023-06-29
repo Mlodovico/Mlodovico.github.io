@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <div className="category-sector">
-        <p>Perfil;</p>
+        <p>Perfil</p>
         <img className="profile_image" src={ProfileImage} alt="Profile_Image" />
         <div className="separator" />
         <ul className="list">
@@ -18,6 +18,11 @@ function App() {
           <li>Curriculo</li>
         </ul>
       </div>
+      <div className="mobile-sector-only">
+        <img className="profile_image" src={ProfileImage} alt="Profile_Image" />
+        <p>Murilo Lodovico</p>
+      </div>
+
       <div className="body-sector">
         <div>
           <h3>Olá, seja bem vindo ao meu portifólio!!</h3>
@@ -26,11 +31,14 @@ function App() {
             a aproximadamente 4 (quatro) anos. Formado em Ciência da Computaçāo
             pela Universade Paulista (UNIP) em 2022.
           </p>
+
           <Player src={develop1} className="player" loop autoplay />
+
           <div className="certificacion-container">
-            <p>UNIVERSIDADE PAULISTA</p>
+            <div className="card">
+              <p>Formação academica</p>
+            </div>
           </div>
-          ;
         </div>
       </div>
     </div>
