@@ -21,8 +21,8 @@ function App() {
       <div className="mobile-sector-only">
         <img className="profile-image" src={ProfileImage} alt="Profile-Image" />
         <div className="profile-text">
-          <p>Murilo Lodovico</p>
-          <p>FullStack Developer</p>
+          <h5>Murilo Lodovico</h5>
+          <p>Desenvolvedor Full-Stack</p>
         </div>
       </div>
 
