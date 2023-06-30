@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <div className="category-sector">
         <p>Perfil</p>
-        <img className="profile_image" src={ProfileImage} alt="Profile_Image" />
+        <img className="profile-image" src={ProfileImage} alt="Profile_Image" />
         <div className="separator" />
         <ul className="list">
           <li>Github</li>
@@ -19,8 +19,11 @@ function App() {
         </ul>
       </div>
       <div className="mobile-sector-only">
-        <img className="profile_image" src={ProfileImage} alt="Profile_Image" />
-        <p>Murilo Lodovico</p>
+        <img className="profile-image" src={ProfileImage} alt="Profile-Image" />
+        <div className="profile-text">
+          <p>Murilo Lodovico</p>
+          <p>FullStack Developer</p>
+        </div>
       </div>
 
       <div className="body-sector">

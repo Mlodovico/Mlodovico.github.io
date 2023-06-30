@@ -85,12 +85,32 @@
 
   .mobile-sector-only {
     width: 80vw;
-    height: 20vh;
+    height: 30vh;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-self: center;
+    align-items: center;
+    justify-content: center;
     margin: 0px 10px;
     border-radius: 8px;
     background: rgba(112, 128, 144, 0.7);
+  }
+
+  .mobile-sector-only p {
+    padding: 0px;
+    font-size: 15px;
+  }
+
+
+  .profile-image {
+    width: 40%;
+    border-radius: 8px;
+  }
+
+  .profile-text {
+    background: black;
+    margin: 10px 0px;
   }
 
   .category-sector {
