@@ -10,35 +10,55 @@
   font-family: 'Roboto Slab', serif;
 }
 
+.container {
+  max-width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .category-sector {
-  width: 20%;
+  width: 28%;
   height: 90vh;
+  display: flex;
+  align-itens: center;
+  justify-content: center;
   margin: 0px 10px;
+  padding: 10px 20px;
   background: rgba(112, 128, 144, 0.7);
   border-radius: 8px;
 }
 
+.category-sector div {
+  margin: 0px 20px;
+}
+
 .list {
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 400;
   text-align: start;
+  background: black;
+
 }
 
 .separator {
   width: 100%;
-  margin-bottom: 20px;
-  border-width: 2px;
+  margin: 20px;
+  border-width: 1px;
   border-color: white;
 }
 
 .profile-image {
   width: 50%;
-  border-radius: 8px;
+  border-radius: 48%;
 }
 
 .body-sector {
-  width: 50vw;
-  min-height: 60vh;
+  height: 90vh;
+  width: 70%;
+  max-width: 60vw;
   margin: 0px 10px;
+  padding: 0px 20px;
   flex-wrap: wrap;
   border-radius: 8px;
   background: rgba(112, 128, 144, 0.7);
@@ -53,14 +73,43 @@
   text-align: left;
 }
 
+.knowledge {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background: rgba(119, 136, 153, 0.8);
+  /* background: black; */
+  border-radius: 8px;
+}
+
+.knowledge p {
+  font-weight: 400;
+  font-size: 16px;
+  background: rgba(106,90,205);
+  margin: 5px 5px;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.knowledge p:hover {
+  transition-duration: 3s;
+  background: rgba(0,0,0);
+
+}
+
+.title-body {
+  font-weight: 700;
+  
+}
+
 .body-sector div {
   margin: 10px;
   align-items: center;
 }
 
 .player {
-  width: 80%;
-  height: 80%;
+  width: 50%;
+  height: 50%;
 }
 
 .certificacion-container {
@@ -82,6 +131,11 @@
     padding: 20px 0px;
   }
 
+  .container {
+    display: block;
+    width: 100vw;
+  }
+
   .mobile-sector-only {
     width: 80vw;
     height: 30vh;
@@ -97,7 +151,13 @@
 
   .mobile-sector-only p {
     padding: 0px;
+    margin: 0px;
     font-size: 15px;
+  }
+
+  .mobile-sector-only h4{
+    padding: 0px;
+    margin: 15px 0px 0px 0px;
   }
 
 
@@ -107,8 +167,6 @@
   }
 
   .profile-text {
-    background: black;
-    margin: 10px 0px;
   }
 
   .category-sector {
@@ -119,5 +177,6 @@
     margin: 20px 10px;
     padding: 10px 0px;
     min-width: 80vw;
+    min-height: 40vh;
   }
 }
