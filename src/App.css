@@ -37,16 +37,18 @@
 
 
 .list {
+  list-style-type: none;  
+
+  display: column;
   font-size: 16px;
   font-weight: 300;
   background: black;
 }
 
 .list a {
+  text-align: flex-start;
   text-decoration: none;
   color: white;
-  align-items: center;
-  justify-content: center;
 }
 
 .separator {
@@ -61,8 +63,9 @@
   width: 70%;
   max-width: 60vw;
   margin: 0px 10px;
-  padding: 0px 20px;
-  flex-wrap: wrap;
+  margin: 0px 20px;
+  padding: 10px 20px;
+    flex-wrap: wrap;
   border-radius: 8px;
   background: rgba(112, 128, 144, 0.7);
 }
@@ -101,7 +104,6 @@
 
 .title-body {
   font-weight: 700;
-  
 }
 
 .body-sector div {
@@ -125,6 +127,12 @@
 
 .card {
   height: 80%;
+}
+
+
+.profile-image {
+  width: 200px;
+  border-radius: 8px;
 }
 
 @media (max-width: 1000px) {

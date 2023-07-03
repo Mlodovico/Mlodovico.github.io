@@ -30,24 +30,24 @@ function App() {
             <h4 className="title">Redes</h4>
 
             <ul className="list">
-              <ol>
+              <li>
                 <a href="https://github.com/Mlodovico">
                   <AiFillGithub />
                   Github
                 </a>
-              </ol>
-              <ol>
+              </li>
+              <li>
                 <a href="https://www.linkedin.com/in/murilo-lodovico-509398167/">
                   <AiFillLinkedin />
                   Linkedin
                 </a>
-              </ol>
-              <ol>
+              </li>
+              <li>
                 <a href="">
                   <AiOutlineFileText />
-                  Currículo
+                  Currculo
                 </a>
-              </ol>
+              </li>
             </ul>
 
             <div className="separator" />
@@ -62,6 +62,12 @@ function App() {
               <p>Angular</p>
               <p>Svelte</p>
               <p>Nextjs</p>
+              <p>CSS</p>
+              <p>Boostrap</p>
+              <p>Tailwind</p>
+              <p>Java</p>
+              <p>Python</p>
+              <p>MongoDB</p>
             </div>
           </div>
         </div>
@@ -79,7 +85,7 @@ function App() {
 
         <div className="body-sector">
           <div>
-            <p className="title-body">Portifolio</p>
+            <h3 className="title-body">Portifolio</h3>
             <p>
               Olá, seja bem-vindo a uma breve introducão da minha vida
               profissional.
