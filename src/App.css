@@ -23,22 +23,30 @@
   display: flex;
   align-itens: center;
   justify-content: center;
-  margin: 0px 10px;
+  margin: 0px 20px;
   padding: 10px 20px;
   background: rgba(112, 128, 144, 0.7);
   border-radius: 8px;
 }
 
-.category-sector div {
-  margin: 0px 20px;
+.title {
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
 }
+
 
 .list {
   font-size: 16px;
-  font-weight: 400;
-  text-align: start;
+  font-weight: 300;
   background: black;
+}
 
+.list a {
+  text-decoration: none;
+  color: white;
+  align-items: center;
+  justify-content: center;
 }
 
 .separator {
@@ -46,11 +54,6 @@
   margin: 20px;
   border-width: 1px;
   border-color: white;
-}
-
-.profile-image {
-  width: 50%;
-  border-radius: 48%;
 }
 
 .body-sector {
@@ -78,7 +81,6 @@
   display: flex;
   flex-wrap: wrap;
   background: rgba(119, 136, 153, 0.8);
-  /* background: black; */
   border-radius: 8px;
 }
 
@@ -148,6 +150,7 @@
     border-radius: 8px;
     background: rgba(112, 128, 144, 0.7);
   }
+  
 
   .mobile-sector-only p {
     padding: 0px;
@@ -162,7 +165,7 @@
 
 
   .profile-image {
-    width: 40%;
+    width: 30vh;
     border-radius: 8px;
   }
 

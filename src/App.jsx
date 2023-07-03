@@ -4,6 +4,12 @@ import "./App.css";
 
 import { Player } from "@lottiefiles/react-lottie-player";
 
+import {
+  AiFillGithub,
+  AiFillLinkedin,
+  AiOutlineFileText,
+} from "react-icons/ai";
+
 import develop1 from "./assets/develop_1.json";
 import ProfileImage from "./assets/profile_image.jpeg";
 
@@ -21,14 +27,32 @@ function App() {
 
             <div className="separator" />
 
+            <h4 className="title">Redes</h4>
+
             <ul className="list">
-              <li>Github</li>
-              <li>Linkedin</li>
-              <li>Curriculo</li>
+              <ol>
+                <a href="https://github.com/Mlodovico">
+                  <AiFillGithub />
+                  Github
+                </a>
+              </ol>
+              <ol>
+                <a href="https://www.linkedin.com/in/murilo-lodovico-509398167/">
+                  <AiFillLinkedin />
+                  Linkedin
+                </a>
+              </ol>
+              <ol>
+                <a href="">
+                  <AiOutlineFileText />
+                  Currículo
+                </a>
+              </ol>
             </ul>
 
             <div className="separator" />
 
+            <h4 className="title">Conhecimentos</h4>
             <div className="knowledge">
               <p>React</p>
               <p>React-Native</p>
@@ -37,6 +61,7 @@ function App() {
               <p>Typescript</p>
               <p>Angular</p>
               <p>Svelte</p>
+              <p>Nextjs</p>
             </div>
           </div>
         </div>
