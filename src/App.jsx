@@ -54,20 +54,15 @@ function App() {
 
             <h4 className="title">Conhecimentos</h4>
             <div className="knowledge">
-              <p>React</p>
-              <p>React-Native</p>
-              <p>Node</p>
               <p>Javascript</p>
               <p>Typescript</p>
+              <p>Node</p>
+              <p>React</p>
+              <p>React-Native</p>
               <p>Angular</p>
-              <p>Svelte</p>
-              <p>Nextjs</p>
-              <p>CSS</p>
-              <p>Boostrap</p>
-              <p>Tailwind</p>
-              <p>Java</p>
-              <p>Python</p>
-              <p>MongoDB</p>
+              <p>NextJs</p>
+              <p>Git</p>
+              <p>Docker</p>
             </div>
           </div>
         </div>
@@ -87,21 +82,23 @@ function App() {
           <div>
             <h3 className="title-body">Portifolio</h3>
             <p>
-              Olá, seja bem-vindo a uma breve introducão da minha vida
+              Olá, seja bem-vindo a uma breve introducão ao meu histórico
               profissional.
             </p>
 
             <Player src={develop1} className="player" loop autoplay />
 
             <p>
-              Trabalho com desenvolvimento de software a aproximadamente 4
-              (quatro) anos. Formado em Ciência da Computaçāo pela Universade
-              Paulista (UNIP) em 2022.
+              Me chamo Murilo Lodovico, nascido em 11/02/1998, comecei com o
+              desenvolvimento de software dentro da faculdade, que iniciei em
+              2018 e desde então nunca mais parei. Trabalho com desenvolvimento
+              de software a aproximadamente 4 (quatro) anos. Formado em Ciência
+              da Computaçāo pela Universade Paulista (UNIP) em 2022.
             </p>
 
             <div className="certificacion-container">
               <div className="card">
-                <p>Formação academica</p>
+                <p>Formaçōes e certificados</p>
               </div>
             </div>
           </div>

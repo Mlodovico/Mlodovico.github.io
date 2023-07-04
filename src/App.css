@@ -37,12 +37,21 @@
 
 
 .list {
+  width: 100%;
   list-style-type: none;  
+  wrap: flex-start;
 
-  display: column;
   font-size: 16px;
   font-weight: 300;
   background: black;
+}
+
+.list li {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background: red;
 }
 
 .list a {
@@ -98,7 +107,7 @@
 
 .knowledge p:hover {
   transition-duration: 3s;
-  background: rgba(0,0,0);
+  background: #e66465;
 
 }
 
