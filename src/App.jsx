@@ -19,12 +19,17 @@ function App() {
       <div className="container">
         <div className="category-sector">
           <div>
-            <img
-              className="profile-image"
-              src={ProfileImage}
-              alt="Profile_Image"
-            />
-
+            <div className="data-sector">
+              <img
+                className="profile-image"
+                src={ProfileImage}
+                alt="Profile_Image"
+              />
+              <p>Murilo Lodovico</p>
+              <p>25 anos</p>
+              <p>Campinas - SP</p>
+              <p>contatomlodovico@yahoo.com</p>
+            </div>
             <div className="separator" />
 
             <h4 className="title">Redes</h4>
@@ -79,27 +84,38 @@ function App() {
         </div>
 
         <div className="body-sector">
-          <div>
-            <h3 className="title-body">Portifolio</h3>
-            <p>
-              Olá, seja bem-vindo a uma breve introducão ao meu histórico
-              profissional.
-            </p>
+          <h3 className="title-body">Portifolio</h3>
+          <p>
+            Olá, seja bem-vindo a uma breve introducão ao meu histórico
+            profissional.
+          </p>
+          <p>
+            Nascido em 11/02/1998, comecei a me interessar pelo mundo do
+            desenvolvimento de software aos 16 (dezesseis) anos com arduino,
+            HTML, JS e CSS no ensino fundamental. Ja dentro da faculdade, que
+            iniciei em 2018 pude me aprofundar mais nos estudos e entender mais
+            sobre os principais logicas básicas.
+          </p>
 
-            <Player src={develop1} className="player" loop autoplay />
+          <Player src={develop1} className="player" loop autoplay />
 
-            <p>
-              Me chamo Murilo Lodovico, nascido em 11/02/1998, comecei com o
-              desenvolvimento de software dentro da faculdade, que iniciei em
-              2018 e desde então nunca mais parei. Trabalho com desenvolvimento
-              de software a aproximadamente 4 (quatro) anos. Formado em Ciência
-              da Computaçāo pela Universade Paulista (UNIP) em 2022.
-            </p>
+          <p>
+            Me familiarizei mais com JS e seus frameworks, mas não me afixionei
+            só por isso, pude me desenvolver em outras linguagens como Java e
+            Python. Trabalho com desenvolvimento de software a aproximadamente 4
+            (quatro) anos, me considero um desenvolvedor Fullstack Pleno.
+            Formado em Ciência da Computaçāo pela Universade Paulista (UNIP) em
+            2022.
+          </p>
 
-            <div className="certificacion-container">
-              <div className="card">
-                <p>Formaçōes e certificados</p>
-              </div>
+          <div className="certificacion-container">
+            <div className="card">
+              <p>Projetos</p>
+            </div>
+          </div>
+          <div className="certificacion-container">
+            <div className="card">
+              <p>Formaçōes e certificados</p>
             </div>
           </div>
         </div>

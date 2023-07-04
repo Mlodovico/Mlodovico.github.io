@@ -1,32 +1,39 @@
 .App {
   display: flex;
   min-height: 100vh;
-  align-items: center;
-  justify-content: center;
+  padding: 10vh;
   font-size: calc(10px + 2vmin);
   color: white;
   background: linear-gradient(#9198e5, #e66465);
-  text-align: center;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Poppins', serif;
 }
 
 .container {
   max-width: 80vw;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .category-sector {
   width: 28%;
-  height: 90vh;
+  height: 70vh;
   display: flex;
   align-itens: center;
   justify-content: center;
-  margin: 0px 20px;
-  padding: 10px 20px;
+  padding: 10px;
   background: rgba(112, 128, 144, 0.7);
   border-radius: 8px;
+}
+
+.data-sector {
+  align-items: center;
+  justify-content: center;
+}
+
+.data-sector p {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0px;
+  margin: 0px;
 }
 
 .title {
@@ -37,8 +44,7 @@
 
 
 .list {
-  width: 100%;
-  list-style-type: none;  
+  list-style-type: none;
   wrap: flex-start;
 
   font-size: 16px;
@@ -47,10 +53,7 @@
 }
 
 .list li {
-  width: 100%;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
   background: red;
 }
 
@@ -68,15 +71,20 @@
 }
 
 .body-sector {
-  height: 90vh;
+  min-height: 90vh;
   width: 70%;
   max-width: 60vw;
   margin: 0px 10px;
   margin: 0px 20px;
   padding: 10px 20px;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
   border-radius: 8px;
   background: rgba(112, 128, 144, 0.7);
+}
+
+.body-sector p {
+  padding: 0px;
+  margin: 0px;
 }
 
 .mobile-sector-only {
@@ -90,6 +98,7 @@
 
 .knowledge {
   width: 100%;
+  padding: 5px;
   display: flex;
   flex-wrap: wrap;
   background: rgba(119, 136, 153, 0.8);
@@ -98,7 +107,7 @@
 
 .knowledge p {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
   background: rgba(106,90,205);
   margin: 5px 5px;
   padding: 3px;
@@ -112,12 +121,8 @@
 }
 
 .title-body {
+  text-align: center;
   font-weight: 700;
-}
-
-.body-sector div {
-  margin: 10px;
-  align-items: center;
 }
 
 .player {
@@ -126,10 +131,9 @@
 }
 
 .certificacion-container {
-  height: 20%;
-  align-self: center;
-  justify-self: center;
+  height: 15vh;
   padding: 10px;
+  margin: 10px 0px;
   border-radius: 8px;
   background: rgba(119, 136, 153, 0.8);
 }
@@ -140,7 +144,7 @@
 
 
 .profile-image {
-  width: 200px;
+  width: 100%;
   border-radius: 8px;
 }
 
@@ -195,7 +199,7 @@
 
   .body-sector {
     margin: 20px 10px;
-    padding: 10px 0px;
+    padding: 10px 10px;
     min-width: 80vw;
     min-height: 40vh;
   }
