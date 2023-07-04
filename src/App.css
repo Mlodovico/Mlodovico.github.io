@@ -167,6 +167,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    text-align: center;
     margin: 0px 10px;
     border-radius: 8px;
     background: rgba(112, 128, 144, 0.7);
@@ -176,7 +177,38 @@
   .mobile-sector-only p {
     padding: 0px;
     margin: 0px;
-    font-size: 15px;
+  }
+
+  .profile-text div {
+    padding-top: 20px;
+    justify-content: space-between;
+  }
+
+  .github-link {
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 8px;
+    border-radius: 8px;
+  }
+
+  .linkedin-link {
+    text-decoration: none;
+    color: white;
+    background: #0A66C2;
+    padding: 8px;
+    border-radius: 8px;
+  }
+
+  .instagram-link {
+        text-decoration: none;
+    color: white;
+    background: linear-gradient(#833AB4, #FFDC80);
+    padding: 8px;
+    border-radius: 8px;
+  }
+
+  .mobile-sector-only h4 {
   }
 
   .mobile-sector-only h4{
@@ -186,7 +218,7 @@
 
 
   .profile-image {
-    width: 30vh;
+    width: 50vw;
     border-radius: 8px;
   }
 
@@ -202,5 +234,9 @@
     padding: 10px 10px;
     min-width: 80vw;
     min-height: 40vh;
+  }
+
+  .body-sector p {
+    font-size: 12px;
   }
 }

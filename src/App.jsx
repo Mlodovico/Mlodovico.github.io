@@ -27,8 +27,7 @@ function App() {
               />
               <p>Murilo Lodovico</p>
               <p>25 anos</p>
-              <p>Campinas - SP</p>
-              <p>contatomlodovico@yahoo.com</p>
+              <p>Campinas - SP/Brasil</p>
             </div>
             <div className="separator" />
 
@@ -80,6 +79,20 @@ function App() {
           <div className="profile-text">
             <h4>Murilo Lodovico</h4>
             <p>Desenvolvedor Full-Stack</p>
+            <div>
+              <a className="github-link" href="https://github.com/Mlodovico">
+                <AiFillGithub />
+                Github
+              </a>
+              <a className="linkedin-link" href="https://github.com/Mlodovico">
+                <AiFillGithub />
+                Linkedin
+              </a>
+              <a className="instagram-link" href="https://github.com/Mlodovico">
+                <AiFillGithub />
+                Instagram
+              </a>
+            </div>
           </div>
         </div>
 
