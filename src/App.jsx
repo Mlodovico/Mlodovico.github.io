@@ -26,6 +26,7 @@ function App() {
                 alt="Profile_Image"
               />
               <p>Murilo Lodovico</p>
+              <p>Desenvolvedor Fullstack</p>
               <p>25 anos</p>
               <p>Campinas - SP/Brasil</p>
             </div>
@@ -81,14 +82,21 @@ function App() {
             <p>Desenvolvedor Full-Stack</p>
             <div>
               <a className="github-link" href="https://github.com/Mlodovico">
-                <AiFillGithub />
-                Github
+                <span>
+                  <AiFillGithub />
+                  Github
+                </span>
               </a>
               <a className="linkedin-link" href="https://github.com/Mlodovico">
-                <AiFillGithub />
-                Linkedin
+                <span>
+                  <AiFillLinkedin />
+                  Linkedin
+                </span>
               </a>
-              <a className="instagram-link" href="https://github.com/Mlodovico">
+              <a
+                className="instagram-link"
+                href="https://instagram.com/mlodovico?igshid=OGQ5ZDc2ODk2ZA=="
+              >
                 <AiFillGithub />
                 Instagram
               </a>

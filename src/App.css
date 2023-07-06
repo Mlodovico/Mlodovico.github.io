@@ -1,7 +1,9 @@
 .App {
   display: flex;
   min-height: 100vh;
-  padding: 10vh;
+  justify-content: center;
+  padding: 8vh 0vh;
+  align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
   background: linear-gradient(#9198e5, #e66465);
@@ -74,7 +76,6 @@
   min-height: 90vh;
   width: 70%;
   max-width: 60vw;
-  margin: 0px 10px;
   margin: 0px 20px;
   padding: 10px 20px;
   flex-wrap: wrap;
@@ -144,13 +145,15 @@
 
 
 .profile-image {
-  width: 100%;
+  width: 50%;
   border-radius: 8px;
 }
 
 @media (max-width: 1000px) {
   .App {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 20px 0px;
   }
 
@@ -160,20 +163,26 @@
   }
 
   .mobile-sector-only {
-    width: 80vw;
-    height: 30vh;
+    min-width: 80vw;
+    min-height: 30vh;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 0px 10px;
+    margin: 20px 10px;
+    padding: 10px 10px;
     border-radius: 8px;
     background: rgba(112, 128, 144, 0.7);
   }
-  
 
+  .body-sector {
+    margin: 20px 10px;
+    padding: 10px 10px;
+    min-width: 80vw;
+    min-height: 40vh;
+  }
+  
   .mobile-sector-only p {
     padding: 0px;
     margin: 0px;
@@ -201,7 +210,7 @@
   }
 
   .instagram-link {
-        text-decoration: none;
+    text-decoration: none;
     color: white;
     background: linear-gradient(#833AB4, #FFDC80);
     padding: 8px;
@@ -218,25 +227,32 @@
 
 
   .profile-image {
-    width: 50vw;
+    width: 30vw;
     border-radius: 8px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
 
   .profile-text {
+    padding: 10px 0px;
+    margin: 0px;
+  }
+
+  .profile-text div {
+    flex: 1;
+    justify-content: center;
+  }
+
+  .profile-text a {
+    font-size: 16px;
+    margin: 0px 10px;
   }
 
   .category-sector {
     display: none;
   }
 
-  .body-sector {
-    margin: 20px 10px;
-    padding: 10px 10px;
-    min-width: 80vw;
-    min-height: 40vh;
-  }
-
   .body-sector p {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
