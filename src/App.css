@@ -132,7 +132,7 @@
 }
 
 .certificacion-container {
-  height: 15vh;
+  height: 20vh;
   padding: 10px;
   margin: 10px 0px;
   border-radius: 8px;
@@ -141,11 +141,22 @@
 
 .card {
   height: 80%;
+  display: flex;
 }
 
 
 .profile-image {
   width: 50%;
+  border-radius: 8px;
+}
+
+.card-box {
+  flex: 1;
+  min-width: 90px;
+  padding: 0px 10px;
+  margin: 10px;
+  height: 100%;
+  background: rgba(106,90,205, 0.4);
   border-radius: 8px;
 }
 

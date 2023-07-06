@@ -130,8 +130,11 @@ function App() {
           </p>
 
           <div className="certificacion-container">
+            <p>Projetos</p>
             <div className="card">
-              <p>Projetos</p>
+              <div className="card-box"></div>
+              <div className="card-box"></div>
+              <div className="card-box"></div>
             </div>
           </div>
           <div className="certificacion-container">
