@@ -30,7 +30,7 @@ function App() {
               <p>25 anos</p>
               <p>Campinas - SP/Brasil</p>
             </div>
-            <div className="separator" />
+            <span className="separator" />
 
             <h4 className="title">Redes</h4>
 

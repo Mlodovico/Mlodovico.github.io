@@ -16,8 +16,11 @@
 }
 
 .category-sector {
-  width: 28%;
-  height: 70vh;
+  max-width: 20vw;
+  min-width: 250px;
+
+  height: 80vh;
+  flex-wrap: wrap;
   display: flex;
   align-itens: center;
   justify-content: center;
@@ -46,16 +49,19 @@
 
 
 .list {
-  list-style-type: none;
-  wrap: flex-start;
 
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
   font-size: 16px;
   font-weight: 300;
   background: black;
 }
 
 .list li {
-  display: flex;
+  width: 100%;
   background: red;
 }
 
@@ -68,7 +74,7 @@
 .separator {
   width: 100%;
   margin: 20px;
-  border-width: 1px;
+  border-width: 3px;
   border-color: white;
 }
 
@@ -99,7 +105,6 @@
 
 .knowledge {
   width: 100%;
-  padding: 5px;
   display: flex;
   flex-wrap: wrap;
   background: rgba(119, 136, 153, 0.8);
