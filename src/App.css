@@ -49,27 +49,26 @@
 
 
 .list {
-
-  list-style-type: none;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-start;
+  align-items: flex-start;
   font-size: 16px;
   font-weight: 300;
-  background: black;
-}
-
-.list li {
-  width: 100%;
-  background: red;
+  
 }
 
 .list a {
-  text-align: flex-start;
   text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
   color: white;
 }
+
+.list a:hover {
+  transition-duration: 3s;
+  color: #e66465;
+}
+
 
 .separator {
   width: 100%;

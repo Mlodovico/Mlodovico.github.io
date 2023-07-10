@@ -33,27 +33,26 @@ function App() {
             <span className="separator" />
 
             <h4 className="title">Redes</h4>
-
-            <ul className="list">
-              <li>
-                <a href="https://github.com/Mlodovico">
-                  <AiFillGithub />
-                  Github
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/murilo-lodovico-509398167/">
-                  <AiFillLinkedin />
-                  Linkedin
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <AiOutlineFileText />
-                  Currculo
-                </a>
-              </li>
-            </ul>
+            <div className="list">
+              <a href="https://github.com/Mlodovico">
+                <AiFillGithub
+                  style={{ marginRight: 5, verticalAlign: "middle" }}
+                />
+                Github
+              </a>
+              <a href="https://www.linkedin.com/in/murilo-lodovico-509398167/">
+                <AiFillLinkedin
+                  style={{ marginRight: 5, verticalAlign: "middle" }}
+                />
+                Linkedin
+              </a>
+              <a href="">
+                <AiOutlineFileText
+                  style={{ marginRight: 5, verticalAlign: "middle" }}
+                />
+                Curriculo
+              </a>
+            </div>
 
             <div className="separator" />
 
