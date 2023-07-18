@@ -11,7 +11,8 @@ import {
 } from "react-icons/ai";
 
 import develop1 from "./assets/develop_1.json";
-import ProfileImage from "./assets/profile_image.jpeg";
+import ProfileImage from "./assets/back-profile-image.jpeg";
+import ProfileFrontImage from "./assets/front-profile-image.jpeg";
 
 function App() {
   return (
@@ -25,10 +26,12 @@ function App() {
                 src={ProfileImage}
                 alt="Profile_Image"
               />
-              <p>Murilo Lodovico</p>
-              <p>Desenvolvedor Fullstack</p>
-              <p>25 anos</p>
-              <p>Campinas - SP/Brasil</p>
+              <div>
+                <p>Murilo Lodovico</p>
+                <p>Desenvolvedor Fullstack</p>
+                <p>25 anos</p>
+                <p>Campinas - SP/Brasil</p>
+              </div>
             </div>
             <span className="separator" />
 
@@ -127,18 +130,40 @@ function App() {
             Formado em Ciência da Computaçāo pela Universade Paulista (UNIP) em
             2022.
           </p>
+          <div className="profile-front-image-view">
+            <img
+              className="profile-image"
+              src={ProfileFrontImage}
+              alt="Profile_Image"
+            />
+          </div>
 
           <div className="certificacion-container">
             <p>Projetos</p>
             <div className="card">
-              <div className="card-box"></div>
-              <div className="card-box"></div>
-              <div className="card-box"></div>
+              <div className="card-box">
+                <p>Go barber</p>
+              </div>
+              <div className="card-box">
+                <p>Go-barber</p>
+              </div>
+              <div className="card-box">
+                <p>Go-barber</p>
+              </div>
             </div>
           </div>
           <div className="certificacion-container">
+            <p>Formaçōes e certificados</p>
             <div className="card">
-              <p>Formaçōes e certificados</p>
+              <div className="card-box">
+                <p>Certificado</p>
+              </div>
+              <div className="card-box">
+                <p>Go barber</p>
+              </div>
+              <div className="card-box">
+                <p>Go barber</p>
+              </div>
             </div>
           </div>
         </div>

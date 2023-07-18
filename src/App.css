@@ -30,8 +30,13 @@
 }
 
 .data-sector {
+  display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.data-sector div {
+  margin-left: 10px;
 }
 
 .data-sector p {
@@ -133,7 +138,16 @@
 .player {
   width: 50%;
   height: 50%;
+  padding: 0px;
+  margin: 0px;
 }
+
+.profile-front-image-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0px;
+} 
 
 .certificacion-container {
   height: 20vh;
@@ -151,7 +165,7 @@
 
 .profile-image {
   width: 50%;
-  border-radius: 8px;
+  border-radius: 48%;
 }
 
 .card-box {
@@ -160,8 +174,9 @@
   padding: 0px 10px;
   margin: 10px;
   height: 100%;
-  background: rgba(106,90,205, 0.4);
   border-radius: 8px;
+  button-shadow: none;
+  background: rgba(106,90,205, 0.4);
 }
 
 @media (max-width: 1000px) {
@@ -240,10 +255,8 @@
     margin: 15px 0px 0px 0px;
   }
 
-
   .profile-image {
     width: 30vw;
-    border-radius: 8px;
     padding-bottom: 0px;
     margin-bottom: 0px;
   }
