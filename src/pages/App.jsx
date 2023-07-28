@@ -144,15 +144,24 @@ function App() {
           <div className="certificacion-container">
             <p>Projetos</p>
             <div className="card">
-              <a className="card-box">
+              <a
+                className="card-box"
+                href="https://github.com/Mlodovico/Go-Barber"
+              >
                 <p>Go barber</p>
               </a>
-              <div className="card-box">
-                <p>Go-barber</p>
-              </div>
-              <div className="card-box">
-                <p>Go-barber</p>
-              </div>
+              <a
+                className="card-box"
+                href="https://github.com/Mlodovico/Git-hunter"
+              >
+                <p>Git hunter</p>
+              </a>
+              <a
+                className="card-box"
+                href="https://github.com/Mlodovico/Gallery"
+              >
+                <p>Gallery</p>
+              </a>
             </div>
           </div>
           <div className="certificacion-container">
