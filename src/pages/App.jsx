@@ -10,9 +10,9 @@ import {
   AiOutlineFileText,
 } from "react-icons/ai";
 
-import develop1 from "./assets/develop_1.json";
-import ProfileImage from "./assets/back-profile-image.jpeg";
-import ProfileFrontImage from "./assets/front-profile-image.jpeg";
+import develop1 from "../assets/develop_1.json";
+import ProfileImage from "../assets/back-profile-image.jpeg";
+import ProfileFrontImage from "../assets/front-profile-image.jpeg";
 
 function App() {
   return (
@@ -33,6 +33,7 @@ function App() {
                 <p>Campinas - SP/Brasil</p>
               </div>
             </div>
+
             <span className="separator" />
 
             <h4 className="title">Redes</h4>
@@ -159,10 +160,13 @@ function App() {
                 <p>Certificado</p>
               </div>
               <div className="card-box">
-                <p>Go barber</p>
+                <p>VSCode Produtividade Absoluta</p>
               </div>
               <div className="card-box">
-                <p>Go barber</p>
+                <p>IntelliJ IDEA Tricks to Boost Productivity for Java Devs</p>
+              </div>
+              <div className="card-box">
+                <p>Java Spring Tutorial Masterclass</p>
               </div>
             </div>
           </div>
