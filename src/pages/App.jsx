@@ -1,18 +1,20 @@
 import React from "react";
-
-import "./App.css";
-
 import { Player } from "@lottiefiles/react-lottie-player";
-
 import {
   AiFillGithub,
   AiFillLinkedin,
   AiOutlineFileText,
 } from "react-icons/ai";
 
+import "./App.css";
+
 import develop1 from "../assets/develop_1.json";
 import ProfileImage from "../assets/back-profile-image.jpeg";
 import ProfileFrontImage from "../assets/front-profile-image.jpeg";
+import degree from "../assets/degree.pdf";
+import javaIntellijDegree from "../assets/java-intellij-degree.pdf";
+import javaSpringDegree from "../assets/java-spring-degree.pdf";
+import swiftDegree from "../assets/swift-degree.pdf";
 
 function App() {
   return (
@@ -142,9 +144,9 @@ function App() {
           <div className="certificacion-container">
             <p>Projetos</p>
             <div className="card">
-              <div className="card-box">
+              <a className="card-box">
                 <p>Go barber</p>
-              </div>
+              </a>
               <div className="card-box">
                 <p>Go-barber</p>
               </div>
@@ -156,18 +158,18 @@ function App() {
           <div className="certificacion-container">
             <p>Formaçōes e certificados</p>
             <div className="card">
-              <div className="card-box">
+              <a className="card-box" href={degree}>
                 <p>Certificado</p>
-              </div>
-              <div className="card-box">
-                <p>VSCode Produtividade Absoluta</p>
-              </div>
-              <div className="card-box">
-                <p>IntelliJ IDEA Tricks to Boost Productivity for Java Devs</p>
-              </div>
-              <div className="card-box">
-                <p>Java Spring Tutorial Masterclass</p>
-              </div>
+              </a>
+              <a className="card-box" href={swiftDegree}>
+                <p>Swift</p>
+              </a>
+              <a className="card-box" href={javaIntellijDegree}>
+                <p>IntelliJ IDEA Tricks</p>
+              </a>
+              <a className="card-box" href={javaSpringDegree}>
+                <p>Java Spring</p>
+              </a>
             </div>
           </div>
         </div>

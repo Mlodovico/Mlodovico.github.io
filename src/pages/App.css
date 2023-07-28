@@ -174,9 +174,18 @@
   padding: 0px 10px;
   margin: 10px;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 8px;
   button-shadow: none;
   background: rgba(106,90,205, 0.4);
+    text-decoration: none;
+}
+
+.card-box p {
+  text-decoration: none;
+
 }
 
 @media (max-width: 1000px) {
