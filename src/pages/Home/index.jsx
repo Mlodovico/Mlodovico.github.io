@@ -4,17 +4,18 @@ import {
   AiFillGithub,
   AiFillLinkedin,
   AiOutlineFileText,
+  AiOutlineInstagram,
 } from "react-icons/ai";
 
-import "./App.css";
+import "./styles.css";
 
-import develop1 from "../assets/develop_1.json";
-import ProfileImage from "../assets/back-profile-image.jpeg";
-import ProfileFrontImage from "../assets/front-profile-image.jpeg";
-import degree from "../assets/degree.pdf";
-import javaIntellijDegree from "../assets/java-intellij-degree.pdf";
-import javaSpringDegree from "../assets/java-spring-degree.pdf";
-import swiftDegree from "../assets/swift-degree.pdf";
+import develop1 from "../../assets/develop_1.json";
+import ProfileImage from "../../assets/back-profile-image.jpeg";
+import ProfileFrontImage from "../../assets/front-profile-image.jpeg";
+import degree from "../../assets/degree.pdf";
+import javaIntellijDegree from "../../assets/java-intellij-degree.pdf";
+import javaSpringDegree from "../../assets/java-spring-degree.pdf";
+import swiftDegree from "../../assets/swift-degree.pdf";
 
 function App() {
   return (
@@ -88,22 +89,19 @@ function App() {
             <div>
               <a className="github-link" href="https://github.com/Mlodovico">
                 <span>
-                  <AiFillGithub />
-                  Github
+                  <AiFillGithub /> Github
                 </span>
               </a>
               <a className="linkedin-link" href="https://github.com/Mlodovico">
                 <span>
-                  <AiFillLinkedin />
-                  Linkedin
+                  <AiFillLinkedin /> Linkedin
                 </span>
               </a>
               <a
                 className="instagram-link"
                 href="https://instagram.com/mlodovico?igshid=OGQ5ZDc2ODk2ZA=="
               >
-                <AiFillGithub />
-                Instagram
+                <AiOutlineInstagram /> Instagram
               </a>
             </div>
           </div>
