@@ -115,22 +115,26 @@ function App() {
             profissional.
           </p>
           <p>
-            Nascido em 11/02/1998, comecei a me interessar pelo mundo do
-            desenvolvimento de software aos 16 (dezesseis) anos com arduino,
-            HTML, JS e CSS no ensino fundamental. Ja dentro da faculdade, que
-            iniciei em 2018 pude me aprofundar mais nos estudos e entender mais
-            sobre os principais logicas básicas.
+            Iniciei minha jornada na área de programação aos 16 anos, explorando
+            Arduino, C e HTML. Posteriormente, em 2018, ingressei na faculdade
+            de Ciência da Computação, concluindo-a em 2021. Durante esse
+            período, tive a oportunidade de trabalhar e estudar as linguagens de
+            programação mais utilizadas, bem como os frameworks, incluindo Java,
+            Python, React, Angular, Node, Swift, entre outros. Essa experiência
+            me permitiu adquirir conhecimento em diversas áreas, compreendendo
+            os ciclos e estágios dos projetos.
           </p>
 
           <Player src={develop1} className="player" loop autoplay />
 
           <p>
-            Me familiarizei mais com JS e seus frameworks, mas não me afixionei
-            só por isso, pude me desenvolver em outras linguagens como Java e
-            Python. Trabalho com desenvolvimento de software a aproximadamente 4
-            (quatro) anos, me considero um desenvolvedor Fullstack Pleno.
-            Formado em Ciência da Computaçāo pela Universade Paulista (UNIP) em
-            2022.
+            Especializei-me em frameworks desenvolvidos em JavaScript, como
+            Angular, React, React Native, Node, entre outros. No entanto, isso
+            não me impediu de expandir meus conhecimentos em outras áreas,
+            especialmente em backend. Sempre reconheci que o constante
+            aprendizado e atualização são fundamentais na área que escolhi, e
+            tenho uma paixão por explorar novas tecnologias, testá-las e
+            continuar aprendendo.
           </p>
           <div className="profile-front-image-view">
             <img
