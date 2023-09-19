@@ -16,6 +16,7 @@ import degree from "../../assets/degree.pdf";
 import javaIntellijDegree from "../../assets/java-intellij-degree.pdf";
 import javaSpringDegree from "../../assets/java-spring-degree.pdf";
 import swiftDegree from "../../assets/swift-degree.pdf";
+import CurriculumPdf from "../../assets/curriculum.pdf";
 
 function App() {
   return (
@@ -53,7 +54,7 @@ function App() {
                 />
                 Linkedin
               </a>
-              <a href="">
+              <a href={CurriculumPdf}>
                 <AiOutlineFileText
                   style={{ marginRight: 5, verticalAlign: "middle" }}
                 />
