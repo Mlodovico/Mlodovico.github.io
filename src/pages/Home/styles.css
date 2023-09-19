@@ -18,7 +18,6 @@
 .category-sector {
   max-width: 20vw;
   min-width: 250px;
-
   height: 80vh;
   flex-wrap: wrap;
   display: flex;
@@ -52,14 +51,12 @@
   padding: 0px;
 }
 
-
 .list {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   font-size: 16px;
   font-weight: 300;
-  
 }
 
 .list a {
@@ -127,7 +124,6 @@
 .knowledge p:hover {
   transition-duration: 3s;
   background: #e66465;
-
 }
 
 .title-body {
@@ -150,7 +146,7 @@
 } 
 
 .certificacion-container {
-  height: 20vh;
+  min-height: 20vh;
   padding: 10px;
   margin: 10px 0px;
   flex-wrap: 'wrap';
@@ -159,9 +155,9 @@
 }
 
 .card {
-  height: 80%;
-  overflowY: "scroll";
+  max-height: 90%;
   display: flex;
+  flex-wrap: wrap;
 }
 
 

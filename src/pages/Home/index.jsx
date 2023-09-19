@@ -17,6 +17,7 @@ import javaIntellijDegree from "../../assets/java-intellij-degree.pdf";
 import javaSpringDegree from "../../assets/java-spring-degree.pdf";
 import swiftDegree from "../../assets/swift-degree.pdf";
 import CurriculumPdf from "../../assets/curriculum.pdf";
+import { Card } from "../../components/Card";
 
 function App() {
   return (
@@ -147,41 +148,46 @@ function App() {
           <div className="certificacion-container">
             <p>Projetos</p>
             <div className="card">
-              <a
-                className="card-box"
-                href="https://github.com/Mlodovico/Go-Barber"
-              >
-                <p>Go barber</p>
-              </a>
-              <a
-                className="card-box"
-                href="https://github.com/Mlodovico/Git-hunter"
-              >
-                <p>Git hunter</p>
-              </a>
-              <a
-                className="card-box"
-                href="https://github.com/Mlodovico/Gallery"
-              >
-                <p>Gallery</p>
-              </a>
+              <Card
+                title="Go Barber"
+                subtitle="Projeto desenvolvido em React, React Native e Node"
+                link="https://github.com/Mlodovico/Go-Barber"
+              />
+              <Card
+                title="Git hunter"
+                subtitle="Projeto desenvolvido em React"
+                link="https://github.com/Mlodovico/Git-hunter"
+              />
+              <Card
+                title="Gallery"
+                subtitle=""
+                link="https://github.com/Mlodovico/Gallery"
+              />
             </div>
           </div>
           <div className="certificacion-container">
             <p>Formaçōes e certificados</p>
             <div className="card">
-              <a className="card-box" href={degree}>
-                <p>Certificado</p>
-              </a>
-              <a className="card-box" href={swiftDegree}>
-                <p>Swift</p>
-              </a>
-              <a className="card-box" href={javaIntellijDegree}>
-                <p>IntelliJ IDEA Tricks</p>
-              </a>
-              <a className="card-box" href={javaSpringDegree}>
-                <p>Java Spring</p>
-              </a>
+              <Card
+                title="Certificado UNIP"
+                subtitle="Certificado de Formacao em Ciencia da Computacao"
+                link={degree}
+              />
+              <Card
+                title="Swift"
+                subtitle="Curso da Udemy finalizado com intuido estudantil"
+                link={swiftDegree}
+              />
+              <Card
+                title="Java Spring"
+                subtitle="Curso Udemy para entender e aplicar Java SpringBoot"
+                link={javaSpringDegree}
+              />
+              <Card
+                title="IntelliJ IDEA Tricks"
+                subtitle="Curso Udemy para otimizacao de usabilidade do IntelliJ"
+                link={degree}
+              />
             </div>
           </div>
         </div>

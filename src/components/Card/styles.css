@@ -1,0 +1,39 @@
+.card {
+    flex: 1;
+    min-width: 90px;
+    min-height: 10vh;
+    max-height: 20vh;
+    margin: 10px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    button-shadow: none;
+    background: rgba(106,90,205, 0.4);
+}
+
+h4 {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #fff;
+  text-decoration: none;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 500ms linear;
+}
+
+.card p {
+  display: none;
+}
+
+.card:hover h4 {
+  opacity: 0;
+}
+
+.card:hover p {
+  position: relative;
+  display: flex;
+}
