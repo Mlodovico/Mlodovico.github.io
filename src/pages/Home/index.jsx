@@ -148,7 +148,9 @@ function App() {
           <div className="certificacion-container">
             <p>Projetos</p>
             <div className="card">
-              <Card
+              <p>Essa parte ainda esta em desenvolvimento</p>
+
+              {/* <Card
                 title="Go Barber"
                 subtitle="Projeto desenvolvido em React, React Native e Node"
                 link="https://github.com/Mlodovico/Go-Barber"
@@ -162,13 +164,14 @@ function App() {
                 title="Gallery"
                 subtitle=""
                 link="https://github.com/Mlodovico/Gallery"
-              />
+              /> */}
             </div>
           </div>
           <div className="certificacion-container">
             <p>Formaçōes e certificados</p>
             <div className="card">
-              <Card
+              <p>Essa parte ainda esta em desenvolvimento</p>
+              {/* <Card
                 title="Certificado UNIP"
                 subtitle="Certificado de Formacao em Ciencia da Computacao"
                 link={degree}
@@ -187,7 +190,7 @@ function App() {
                 title="IntelliJ IDEA Tricks"
                 subtitle="Curso Udemy para otimizacao de usabilidade do IntelliJ"
                 link={degree}
-              />
+              /> */}
             </div>
           </div>
         </div>

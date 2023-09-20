@@ -146,17 +146,20 @@
 } 
 
 .certificacion-container {
-  min-height: 20vh;
   padding: 10px;
-  margin: 10px 0px;
-  flex-wrap: 'wrap';
+  margin: 20px 0px;
+  overflow-x: scroll; 
+  white-space: nowrap;
   border-radius: 8px;
   background: rgba(119, 136, 153, 0.8);
 }
 
 .card {
-  max-height: 90%;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-height: 90%;
   flex-wrap: wrap;
 }
 

@@ -1,16 +1,20 @@
 .card {
     flex: 1;
     min-width: 90px;
-    min-height: 10vh;
-    max-height: 20vh;
-    margin: 10px;
-    padding: 5px 10px;
+    height: 18vh;
+    margin: 10px 15px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     border-radius: 8px;
     button-shadow: none;
     background: rgba(106,90,205, 0.4);
+}
+
+.card a {
+  padding: 10px;
+  text-decoration: none;
 }
 
 h4 {
@@ -27,9 +31,11 @@ h4 {
 
 .card p {
   display: none;
+  color: #fff;
 }
 
 .card:hover h4 {
+  display: none;
   opacity: 0;
 }
 
