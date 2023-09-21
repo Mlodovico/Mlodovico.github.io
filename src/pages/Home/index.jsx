@@ -148,8 +148,7 @@ function App() {
           <div className="certificacion-container">
             <p>Projetos</p>
             <div className="card">
-              <p>Essa parte ainda esta em desenvolvimento</p>
-
+              <p>ferramente em desenvolvimento</p>
               {/* <Card
                 title="Go Barber"
                 subtitle="Projeto desenvolvido em React, React Native e Node"
@@ -170,15 +169,15 @@ function App() {
           <div className="certificacion-container">
             <p>Formaçōes e certificados</p>
             <div className="card">
-              <p>Essa parte ainda esta em desenvolvimento</p>
+              <p>ferramenta em desenvolvimento</p>
               {/* <Card
                 title="Certificado UNIP"
-                subtitle="Certificado de Formacao em Ciencia da Computacao"
+                subtitle="Certificado de formação acadêmica em Ciência da Computação"
                 link={degree}
               />
               <Card
                 title="Swift"
-                subtitle="Curso da Udemy finalizado com intuido estudantil"
+                subtitle="Certificado de finalização do curso completo de Swift"
                 link={swiftDegree}
               />
               <Card
