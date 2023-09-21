@@ -1,7 +1,9 @@
 .card-component {
+    flex: 1;
     height: 18vh;
-    width: 30vw;
-    white-space: nowrap;
+    width: 100%;
+    min-width: 10em;
+    white-space: normal;
     margin: 0px 10px;
     display: flex;
     align-items: center;

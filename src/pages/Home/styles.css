@@ -148,20 +148,18 @@
 .certificacion-container {
   padding: 10px;
   margin: 20px 0px;
-
   border-radius: 8px;
   background: rgba(119, 136, 153, 0.8);
 }
 
 .card {
+  overflow-x: scroll;
   display: flex;
-  overflow-x: scroll; 
   white-space: nowrap;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  margin: 10px 0px;
   max-height: 90%;
+  padding: 20px;
   background: rgba(106,90,205, 0.4);
   border-radius: 8px;
 }
