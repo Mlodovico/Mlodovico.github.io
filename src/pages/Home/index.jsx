@@ -73,6 +73,8 @@ function App() {
               <p>React</p>
               <p>React-Native</p>
               <p>Angular</p>
+              <p>VueJs</p>
+              <p>Java SpringBoot</p>
               <p>NextJs</p>
               <p>Git</p>
               <p>Docker</p>
@@ -110,7 +112,7 @@ function App() {
         </div>
 
         <div className="body-sector">
-          <h3 className="title-body">Portifolio</h3>
+          <h3 className="title-body">Portfolio</h3>
           <p>
             Olá, seja bem-vindo a uma breve introducão ao meu histórico
             profissional.
