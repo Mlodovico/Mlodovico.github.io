@@ -71,12 +71,11 @@
   color: #e66465;
 }
 
-
 .separator {
-  width: 100%;
-  margin: 20px;
-  border-width: 3px;
-  border-color: white;
+  height: 2.5px;
+  margin: 20px 0px;
+  border-radius: 8px;
+  background-color: white;
 }
 
 .body-sector {

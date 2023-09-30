@@ -39,7 +39,7 @@ function App() {
               </div>
             </div>
 
-            <span className="separator" />
+            <div className="separator" />
 
             <h4 className="title">Redes</h4>
             <div className="list">
