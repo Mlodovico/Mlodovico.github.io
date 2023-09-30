@@ -16,6 +16,10 @@
 .card-component a {
   padding: 10px;
   text-decoration: none;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  text-align: center;
 }
 
 h4 {

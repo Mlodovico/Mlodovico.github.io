@@ -165,6 +165,11 @@ function App() {
                 subtitle="Projeto feito com VueJs, capaz de calcular a quantidade de palavras de um devido texto"
                 link="https://github.com/Mlodovico/most-used-words"
               />
+              <Card
+                title="Habits"
+                subtitle="Marcador de complomissos e habitos feito em React"
+                link="https://github.com/Mlodovico/habits"
+              />
             </div>
           </div>
           <div className="certificacion-container">
