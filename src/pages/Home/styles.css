@@ -155,7 +155,7 @@
 .card {
   overflow-x: scroll;
   display: inline-block;
-  overflow-y: hidden; 
+  overflow-y: hidden;
   display: flex;
   white-space: nowrap;
   justify-content: center;

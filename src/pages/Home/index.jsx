@@ -13,7 +13,7 @@ import develop1 from "../../assets/develop_1.json";
 import ProfileImage from "../../assets/back-profile-image.jpeg";
 import ProfileFrontImage from "../../assets/front-profile-image.jpeg";
 import degree from "../../assets/degree.pdf";
-import javaIntellijDegree from "../../assets/java-intellij-degree.pdf";
+import webCourseJavascript from "../../assets/webcourse-javascript.jpg";
 import javaSpringDegree from "../../assets/java-spring-degree.pdf";
 import swiftDegree from "../../assets/swift-degree.pdf";
 import CurriculumPdf from "../../assets/curriculum.pdf";
@@ -152,18 +152,18 @@ function App() {
             <div className="card">
               <Card
                 title="Go Barber"
-                subtitle="Projeto desenvolvido em React, React Native e Node"
+                subtitle="Projeto de um sistema de barbearia, utilizando React, React Native e Node"
                 link="https://github.com/Mlodovico/Go-Barber"
               />
               <Card
                 title="Git hunter"
-                subtitle="Projeto desenvolvido em React"
+                subtitle="Um sistema capaz de procurar contas no github pelo id, utilizando React"
                 link="https://github.com/Mlodovico/Git-hunter"
               />
               <Card
-                title="Gallery"
-                subtitle=""
-                link="https://github.com/Mlodovico/Gallery"
+                title="Most Used Words"
+                subtitle="Projeto feito com VueJs, capaz de calcular a quantidade de palavras de um devido texto"
+                link="https://github.com/Mlodovico/most-used-words"
               />
             </div>
           </div>
@@ -184,6 +184,11 @@ function App() {
                 title="Java Spring"
                 subtitle="Curso Udemy para entender e aplicar Java SpringBoot"
                 link={javaSpringDegree}
+              />
+              <Card
+                title="WebCourse"
+                subtitle="Curso Udemy, desenvolvendo e aprendendo a utilizar JavaScript e seus frameworks"
+                link={webCourseJavascript}
               />
               <Card
                 title="IntelliJ IDEA Tricks"
