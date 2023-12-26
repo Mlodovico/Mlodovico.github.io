@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
 import {
   AiFillGithub,
@@ -6,6 +6,8 @@ import {
   AiOutlineFileText,
   AiOutlineInstagram,
 } from "react-icons/ai";
+// import {ptBr} from "../../ling/pt-br.json";
+// import {enUs} from "../../ling/en-us.json";
 
 import "./styles.css";
 
@@ -18,8 +20,15 @@ import javaSpringDegree from "../../assets/java-spring-degree.pdf";
 import swiftDegree from "../../assets/swift-degree.pdf";
 import CurriculumPdf from "../../assets/curriculum.pdf";
 import { Card } from "../../components/Card";
+import { ptBR } from "../../ling/pt-br";
 
 function App() {
+  const [ling, setLing] = useState(ptBR);
+
+  useEffect(() => {
+    
+  }, [ling]);
+
   return (
     <div className="App">
       <div className="container">
@@ -33,15 +42,15 @@ function App() {
               />
               <div>
                 <p>Murilo Lodovico</p>
-                <p>Desenvolvedor Fullstack</p>
-                <p>25 anos</p>
+                <p>{ling.firtsSubtitle}</p>
+                <p>25 {ling.yearsOld}</p>
                 <p>Campinas - SP/Brasil</p>
               </div>
             </div>
 
             <div className="separator" />
 
-            <h4 className="title">Redes</h4>
+            <h4 className="title">{ling.socialMedia}</h4>
             <div className="list">
               <a href="https://github.com/Mlodovico">
                 <AiFillGithub
@@ -59,13 +68,13 @@ function App() {
                 <AiOutlineFileText
                   style={{ marginRight: 5, verticalAlign: "middle" }}
                 />
-                Curriculo
+                {ling.resume}
               </a>
             </div>
 
             <div className="separator" />
 
-            <h4 className="title">Conhecimentos</h4>
+            <h4 className="title">{ling.knowledges}</h4>
             <div className="knowledge">
               <p>Javascript</p>
               <p>Typescript</p>
@@ -78,6 +87,10 @@ function App() {
               <p>NextJs</p>
               <p>Git</p>
               <p>Docker</p>
+              <p>MySQL</p>
+              <p>MongoDB</p>
+              <p>Jenkins</p>
+              <p>MultiCloud</p>
             </div>
           </div>
         </div>
@@ -89,7 +102,7 @@ function App() {
           />
           <div className="profile-text">
             <h4>Murilo Lodovico</h4>
-            <p>Desenvolvedor Full-Stack</p>
+            <p>{ling.firtsSubtitle}</p>
             <div>
               <a className="github-link" href="https://github.com/Mlodovico">
                 <span>
@@ -114,30 +127,16 @@ function App() {
         <div className="body-sector">
           <h3 className="title-body">Portfolio</h3>
           <p>
-            Olá, seja bem-vindo a uma breve introducão ao meu histórico
-            profissional.
+            {ling.secondDivFirstSubtitle}
           </p>
           <p>
-            Iniciei minha jornada na área de programação aos 16 anos, explorando
-            Arduino, C e HTML. Posteriormente, em 2018, ingressei na faculdade
-            de Ciência da Computação, concluindo-a em 2021. Durante esse
-            período, tive a oportunidade de trabalhar e estudar as linguagens de
-            programação mais utilizadas, bem como os frameworks, incluindo Java,
-            Python, React, Angular, Node, Swift, entre outros. Essa experiência
-            me permitiu adquirir conhecimento em diversas áreas, compreendendo
-            os ciclos e estágios dos projetos.
+            {ling.secondDivFirstParagraph}
           </p>
 
           <Player src={develop1} className="player" loop autoplay />
 
           <p>
-            Especializei-me em frameworks desenvolvidos em JavaScript, como
-            Angular, React, React Native, Node, entre outros. No entanto, isso
-            não me impediu de expandir meus conhecimentos em outras áreas,
-            especialmente em backend. Sempre reconheci que o constante
-            aprendizado e atualização são fundamentais na área que escolhi, e
-            tenho uma paixão por explorar novas tecnologias, testá-las e
-            continuar aprendendo.
+            {ling.secondDivSecondParagraph}
           </p>
           <div className="profile-front-image-view">
             <img
@@ -148,7 +147,7 @@ function App() {
           </div>
 
           <div className="certificacion-container">
-            <p>Projetos</p>
+            <p>{ling.firstScrollviewCardCardTitle}</p>
             <div className="card">
               <Card
                 title="Go Barber"
@@ -173,7 +172,7 @@ function App() {
             </div>
           </div>
           <div className="certificacion-container">
-            <p>Formaçōes e certificados</p>
+            <p>{ling.secondScrollviewCardTitle}</p>
             <div className="card">
               <Card
                 title="Certificado UNIP"
