@@ -21,6 +21,7 @@ import swiftDegree from "../../assets/swift-degree.pdf";
 import CurriculumPdf from "../../assets/curriculum.pdf";
 import { Card } from "../../components/Card";
 import { ptBR } from "../../ling/pt-br";
+import { enUs } from "../../ling/en-us";
 
 function App() {
   const [ling, setLing] = useState(ptBR);
@@ -43,7 +44,7 @@ function App() {
               <div>
                 <p>Murilo Lodovico</p>
                 <p>{ling.firtsSubtitle}</p>
-                <p>25 {ling.yearsOld}</p>
+                <p>{ling.yearsOld}</p>
                 <p>Campinas - SP/Brasil</p>
               </div>
             </div>
