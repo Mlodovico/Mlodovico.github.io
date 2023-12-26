@@ -151,22 +151,22 @@ function App() {
             <div className="card">
               <Card
                 title="Go Barber"
-                subtitle="Projeto de um sistema de barbearia, utilizando React, React Native e Node"
+                subtitle={ling.goBarberDescription}
                 link="https://github.com/Mlodovico/Go-Barber"
               />
               <Card
                 title="Git hunter"
-                subtitle="Um sistema capaz de procurar contas no github pelo id, utilizando React"
+                subtitle={ling.gitHunterDescription}
                 link="https://github.com/Mlodovico/Git-hunter"
               />
               <Card
                 title="Most Used Words"
-                subtitle="Projeto feito com VueJs, capaz de calcular a quantidade de palavras de um devido texto"
+                subtitle={ling.mostUsedWorldsDescription}
                 link="https://github.com/Mlodovico/most-used-words"
               />
               <Card
                 title="Habits"
-                subtitle="Marcador de complomissos e habitos feito em React"
+                subtitle={ling.habitsDescription}
                 link="https://github.com/Mlodovico/habits"
               />
             </div>
@@ -176,27 +176,27 @@ function App() {
             <div className="card">
               <Card
                 title="Certificado UNIP"
-                subtitle="Certificado de formação acadêmica em Ciência da Computação"
+                subtitle={ling.degreeDescription}
                 link={degree}
               />
               <Card
+                title="WebCourse"
+                subtitle={ling.webCourseDegreeDescription}
+                link={webCourseJavascript}
+              />
+              <Card
                 title="Swift"
-                subtitle="Certificado de finalização do curso completo de Swift"
+                subtitle={ling.swiftDegreeDescription}
                 link={swiftDegree}
               />
               <Card
                 title="Java Spring"
-                subtitle="Curso Udemy para entender e aplicar Java SpringBoot"
+                subtitle={ling.javaSpringDegreeDescription}
                 link={javaSpringDegree}
               />
               <Card
-                title="WebCourse"
-                subtitle="Curso Udemy, desenvolvendo e aprendendo a utilizar JavaScript e seus frameworks"
-                link={webCourseJavascript}
-              />
-              <Card
                 title="IntelliJ IDEA Tricks"
-                subtitle="Curso Udemy para otimizacao de usabilidade do IntelliJ"
+                subtitle={ling.intelliJCourseDescription}
                 link={degree}
               />
             </div>
