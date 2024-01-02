@@ -1,10 +1,11 @@
-import React, {useEffect, useRef, useState} from "react";
+import React, {useState} from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
 import {
   AiFillGithub,
   AiFillLinkedin,
   AiOutlineFileText,
   AiOutlineInstagram,
+  AiFillCaretUp
 } from "react-icons/ai";
 import { FiAlignJustify } from "react-icons/fi";
 
@@ -21,14 +22,11 @@ import CurriculumPdf from "../../assets/curriculum.pdf";
 import { Card } from "../../components/Card";
 import { ptBR } from "../../ling/pt-br";
 import { enUs } from "../../ling/en-us";
+import { esES } from "../../ling/es-es";
 
 function App() {
-  const [ling, setLing] = useState(ptBR);
+  const [ling, setLing] = useState(enUs);
   const [toggleModal, setToggleModal] = useState(false);
-
-  useEffect(() => {
-    
-  }, [ling]);
 
   const toggleOptions = () => {
 
@@ -137,7 +135,13 @@ function App() {
 
           {toggleModal && (
             <div className="toggle-modal-options">
-              <h2>OLAAA</h2>
+              <AiFillCaretUp className="arrow-up" size={40} />
+              <h5>Escolha o idioma</h5>
+              <div className="options-separator">
+                <button className="options-button-select" onClick={() => setLing(ptBR)}>Português</button>
+                <button className="options-button-select" onClick={() => setLing(esES)}>Espanhol</button>
+                <button className="options-button-select" onClick={() => setLing(enUs)}>Inglês</button>
+              </div>
             </div>
           )}
         </div>
