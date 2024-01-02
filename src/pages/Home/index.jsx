@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useRef, useState} from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
 import {
   AiFillGithub,
@@ -6,8 +6,7 @@ import {
   AiOutlineFileText,
   AiOutlineInstagram,
 } from "react-icons/ai";
-// import {ptBr} from "../../ling/pt-br.json";
-// import {enUs} from "../../ling/en-us.json";
+import { FiAlignJustify } from "react-icons/fi";
 
 import "./styles.css";
 
@@ -25,10 +24,17 @@ import { enUs } from "../../ling/en-us";
 
 function App() {
   const [ling, setLing] = useState(ptBR);
+  const [toggleModal, setToggleModal] = useState(false);
 
   useEffect(() => {
     
   }, [ling]);
+
+  const toggleOptions = () => {
+
+  }
+
+  console.log(toggleModal);
 
   return (
     <div className="App">
@@ -123,6 +129,17 @@ function App() {
               </a>
             </div>
           </div>
+          <div className="options-div">
+            <button className="options-button" onClick={() => setToggleModal(!toggleModal)}>
+              <FiAlignJustify size={30} />
+            </button>
+          </div>
+
+          {toggleModal && (
+            <div className="toggle-modal-options">
+              <h2>OLAAA</h2>
+            </div>
+          )}
         </div>
 
         <div className="body-sector">

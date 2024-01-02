@@ -94,8 +94,35 @@
   margin: 0px;
 }
 
+.options-div {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.options-button {
+  text-decoration: none;
+  background: none;
+  border:none;
+  color: #ffff;
+  cursor: pointer;
+}
+
+.options-button:hover {
+  transition-duration: 2s;
+  color: #e66465;
+}
+
 .mobile-sector-only {
-  display: none;
+  position: relative
+}
+
+.toggle-modal-options {
+  position: absolute;
+  height: 20vh;
+  width: 40vw;
+  border-radius: 8px;
+  background: #ffff;
 }
 
 .body-sector p {
