@@ -22,4 +22,5 @@ export const enUs = {
     lang1: 'Portuguese',
     lang2: 'English',
     lang3: 'Spanish',
+    portfolio: 'Portfolio',
 }

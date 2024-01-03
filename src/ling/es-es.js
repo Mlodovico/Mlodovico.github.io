@@ -21,5 +21,6 @@ export const esES = {
     lang: 'Elige lengua',
     lang1: 'Portugués',
     lang2: 'Inglés',
-    lang3: 'Español'
+    lang3: 'Español',
+    portfolio: 'Portafolio'
 }

@@ -144,7 +144,7 @@ function App() {
         </div>
 
         <div className="body-sector">
-          <h3 className="title-body">Portfolio</h3>
+          <h3 className="title-body">{ling.portfolio}</h3>
           <p>{ling.secondDivFirstSubtitle}</p>
           <p>{ling.secondDivFirstParagraph}</p>
 

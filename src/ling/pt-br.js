@@ -22,4 +22,5 @@ export const ptBR = {
     lang1: 'Portugues',
     lang2: 'Ingles',
     lang3: 'Espanhol',
+    portfolio: 'Portfólio'
 }
