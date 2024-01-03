@@ -7,7 +7,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
   background: linear-gradient(#9198e5, #e66465);
-  font-family: 'Poppins', serif;
+  font-family: "Poppins", serif;
 }
 
 .container {
@@ -95,7 +95,7 @@
 }
 
 .mobile-sector-only {
-  display:none;
+  display: none;
 }
 
 .body-sector p {
@@ -114,7 +114,7 @@
 .knowledge p {
   font-weight: 400;
   font-size: 16px;
-  background: rgba(106,90,205);
+  background: rgba(106, 90, 205);
   margin: 5px 5px;
   padding: 3px;
   border-radius: 5px;
@@ -142,7 +142,7 @@
   align-items: center;
   justify-content: center;
   margin: 30px 0px;
-} 
+}
 
 .certificacion-container {
   padding: 10px;
@@ -159,7 +159,7 @@
   white-space: nowrap;
   max-height: 90%;
   padding: 20px;
-  background: rgba(106,90,205, 0.4);
+  background: rgba(106, 90, 205, 0.4);
   border-radius: 8px;
   padding-bottom: 24px;
 }
@@ -180,13 +180,12 @@
   justify-content: center;
   border-radius: 8px;
   button-shadow: none;
-  background: rgba(106,90,205, 0.4);
-    text-decoration: none;
+  background: rgba(106, 90, 205, 0.4);
+  text-decoration: none;
 }
 
 .card-box p {
   text-decoration: none;
-
 }
 
 @media (max-width: 1000px) {
@@ -203,7 +202,7 @@
   }
 
   .mobile-sector-only {
-    position:relative;
+    position: relative;
     min-width: 80vw;
     min-height: 30vh;
     display: flex;
@@ -220,11 +219,11 @@
   .options-button {
     text-decoration: none;
     background: none;
-    border:none;
+    border: none;
     color: #ffff;
     cursor: pointer;
   }
-  
+
   .options-button:hover {
     transition-duration: 2s;
     color: #e66465;
@@ -236,60 +235,13 @@
     right: 20px;
   }
 
-.toggle-modal-options {
-  position: absolute;
-  top: 60px;
-  right: 10px;
-  padding: 10px;
-  width: 40vw;
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(8px);
-}
-
-.arrow-up {
-  position: absolute;
-  right: 10px;
-  top: -27px;
-  color: rgba(255, 255, 255, 0.9);
-  filter: blur(0.8px);
-
-}
-
-.options-button {
-  font-size: 20px;
-  border-radius: 8px;
-}
-
-.options-button-select {
-  width: 100%;
-  font-size: 20px;
-  border-radius: 8px;
-  padding: 10px;
-  margin: 5px 0px;
-  text-decoration: none;
-  border: none;
-  font-family: 'Poppins', serif;
-  background: rgba(145, 152, 229, 1);
-  backdrop-filter: blur(8px);
-}
-
-.options-button-select:hover {
-  transition-duration: 3s;
-  background: rgba(145, 100, 200, 1);
-}
-
-.options-separator {
-  width: 100%;
-}
-
   .body-sector {
     margin: 20px 10px;
     padding: 10px 10px;
     min-width: 80vw;
     min-height: 40vh;
   }
-  
+
   .mobile-sector-only p {
     padding: 0px;
     margin: 0px;
@@ -312,7 +264,7 @@
   .linkedin-link {
     text-decoration: none;
     color: white;
-    background: #0A66C2;
+    background: #0a66c2;
     padding: 8px;
     border-radius: 8px;
   }
@@ -320,7 +272,7 @@
   .instagram-link {
     text-decoration: none;
     color: white;
-    background: #833AB4;
+    background: #833ab4;
     padding: 8px;
     border-radius: 8px;
   }
@@ -328,7 +280,7 @@
   .mobile-sector-only h4 {
   }
 
-  .mobile-sector-only h4{
+  .mobile-sector-only h4 {
     padding: 0px;
     margin: 15px 0px 0px 0px;
   }

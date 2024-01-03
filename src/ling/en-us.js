@@ -18,4 +18,8 @@ export const enUs = {
     javaSpringDegreeDescription: 'Certificate of Java and Spring',
     webCourseDegreeDescription: 'Udemy Course, developing and learning JavaScript and its frameworks',
     intelliJCourseDescription: 'Udemy Course for optimizing usability of IntelliJ',
+    lang: 'Choose language',
+    lang1: 'Portuguese',
+    lang2: 'English',
+    lang3: 'Spanish',
 }

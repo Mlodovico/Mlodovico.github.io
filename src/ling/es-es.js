@@ -17,5 +17,9 @@ export const esES = {
     swiftDegreeDescription: 'Certificado de formación en Swift',
     javaSpringDegreeDescription: 'Certificado de formación en Java y Spring',
     webCourseDegreeDescription: 'Curso en Udemy, desarrollando y aprendiendo a utilizar JavaScript y sus frameworks',
-    intelliJCourseDescription: 'Curso en Udemy para la optimización de la usabilidad de IntelliJ'
+    intelliJCourseDescription: 'Curso en Udemy para la optimización de la usabilidad de IntelliJ',
+    lang: 'Elige lengua',
+    lang1: 'Portugués',
+    lang2: 'Inglés',
+    lang3: 'Español'
 }

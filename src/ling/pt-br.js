@@ -17,5 +17,9 @@ export const ptBR = {
     swiftDegreeDescription: 'Certificado de formação Swift',
     javaSpringDegreeDescription: 'Certificado de formação Java e Spring',
     webCourseDegreeDescription: 'Curso Udemy, desenvolvendo e aprendendo a utilizar JavaScript e seus frameworks',
-    intelliJCourseDescription: 'Curso Udemy para otimizacao de usabilidade do IntelliJ'
+    intelliJCourseDescription: 'Curso Udemy para otimizacao de usabilidade do IntelliJ',
+    lang: 'Escolha idioma',
+    lang1: 'Portugues',
+    lang2: 'Ingles',
+    lang3: 'Espanhol',
 }

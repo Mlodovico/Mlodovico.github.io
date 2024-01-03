@@ -1,11 +1,11 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
 import {
   AiFillGithub,
   AiFillLinkedin,
   AiOutlineFileText,
   AiOutlineInstagram,
-  AiFillCaretUp
+  AiFillCaretUp,
 } from "react-icons/ai";
 import { FiAlignJustify } from "react-icons/fi";
 
@@ -20,6 +20,7 @@ import javaSpringDegree from "../../assets/java-spring-degree.pdf";
 import swiftDegree from "../../assets/swift-degree.pdf";
 import CurriculumPdf from "../../assets/curriculum.pdf";
 import { Card } from "../../components/Card";
+import { OptionsModal } from "../../components/OptionsModal";
 import { ptBR } from "../../ling/pt-br";
 import { enUs } from "../../ling/en-us";
 import { esES } from "../../ling/es-es";
@@ -28,11 +29,9 @@ function App() {
   const [ling, setLing] = useState(enUs);
   const [toggleModal, setToggleModal] = useState(false);
 
-  const toggleOptions = () => {
-
-  }
-
-  console.log(toggleModal);
+  const handleSwitchBetweenLanguages = (langSelected) => {
+    setLing(langSelected);
+  };
 
   return (
     <div className="App">
@@ -114,7 +113,10 @@ function App() {
                   <AiFillGithub /> Github
                 </span>
               </a>
-              <a className="linkedin-link" href="https://github.com/Mlodovico">
+              <a
+                className="linkedin-link"
+                href="https://www.linkedin.com/in/murilo-lodovico-509398167/"
+              >
                 <span>
                   <AiFillLinkedin /> Linkedin
                 </span>
@@ -128,38 +130,27 @@ function App() {
             </div>
           </div>
           <div className="options-div">
-            <button className="options-button" onClick={() => setToggleModal(!toggleModal)}>
+            <button
+              className="options-button"
+              onClick={() => setToggleModal(!toggleModal)}
+            >
               <FiAlignJustify size={30} />
             </button>
           </div>
 
           {toggleModal && (
-            <div className="toggle-modal-options">
-              <AiFillCaretUp className="arrow-up" size={40} />
-              <h5>Escolha o idioma</h5>
-              <div className="options-separator">
-                <button className="options-button-select" onClick={() => setLing(ptBR)}>Português</button>
-                <button className="options-button-select" onClick={() => setLing(esES)}>Espanhol</button>
-                <button className="options-button-select" onClick={() => setLing(enUs)}>Inglês</button>
-              </div>
-            </div>
+            <OptionsModal language={handleSwitchBetweenLanguages} />
           )}
         </div>
 
         <div className="body-sector">
           <h3 className="title-body">Portfolio</h3>
-          <p>
-            {ling.secondDivFirstSubtitle}
-          </p>
-          <p>
-            {ling.secondDivFirstParagraph}
-          </p>
+          <p>{ling.secondDivFirstSubtitle}</p>
+          <p>{ling.secondDivFirstParagraph}</p>
 
           <Player src={develop1} className="player" loop autoplay />
 
-          <p>
-            {ling.secondDivSecondParagraph}
-          </p>
+          <p>{ling.secondDivSecondParagraph}</p>
           <div className="profile-front-image-view">
             <img
               className="profile-image"
