@@ -18,7 +18,7 @@
 .category-sector {
   max-width: 20vw;
   min-width: 250px;
-  height: 80vh;
+  height: stretch;
   flex-wrap: wrap;
   display: flex;
   align-itens: center;
@@ -188,6 +188,24 @@
   text-decoration: none;
 }
 
+.options-button {
+  text-decoration: none;
+  background: none;
+  border: none;
+  color: #ffff;
+  cursor: pointer;
+}
+
+.options-button:hover {
+  transition-duration: 2s;
+  color: #e66465;
+}
+
+.options-div-web {
+  display: flex;
+  justify-content: flex-end;
+}
+
 @media (max-width: 1000px) {
   .App {
     display: flex;
@@ -214,6 +232,10 @@
     padding: 10px 10px;
     border-radius: 8px;
     background: rgba(112, 128, 144, 0.7);
+  }
+
+  .options-div-web {
+    display: none;
   }
 
   .options-button {
@@ -253,15 +275,24 @@
   }
 
   .github-link {
+    display: inline-block;
     text-decoration: none;
     color: white;
     background: black;
     padding: 8px;
     border-radius: 8px;
-    line-height: 5px;
+  }
+
+  .github-link span{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   text-align: center;
+   line-height: 1.5;
   }
 
   .linkedin-link {
+    display: inline-block;
     text-decoration: none;
     color: white;
     background: #0a66c2;
@@ -269,12 +300,29 @@
     border-radius: 8px;
   }
 
+  .linkedin-link span{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   text-align: center;
+   line-height: 1.5;
+  }
+
   .instagram-link {
+    display: inline-block;
     text-decoration: none;
     color: white;
     background: #833ab4;
     padding: 8px;
     border-radius: 8px;
+  }
+
+  .instagram-link span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.5;
   }
 
   .mobile-sector-only h4 {

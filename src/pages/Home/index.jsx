@@ -1,11 +1,12 @@
 import React, { useState } from "react";
+
 import { Player } from "@lottiefiles/react-lottie-player";
+
 import {
   AiFillGithub,
   AiFillLinkedin,
   AiOutlineFileText,
   AiOutlineInstagram,
-  AiFillCaretUp,
 } from "react-icons/ai";
 import { FiAlignJustify } from "react-icons/fi";
 
@@ -19,11 +20,11 @@ import webCourseJavascript from "../../assets/webcourse-javascript.jpg";
 import javaSpringDegree from "../../assets/java-spring-degree.pdf";
 import swiftDegree from "../../assets/swift-degree.pdf";
 import CurriculumPdf from "../../assets/curriculum.pdf";
+
 import { Card } from "../../components/Card";
 import { OptionsModal } from "../../components/OptionsModal";
-import { ptBR } from "../../ling/pt-br";
+
 import { enUs } from "../../ling/en-us";
-import { esES } from "../../ling/es-es";
 
 function App() {
   const [ling, setLing] = useState(enUs);
@@ -110,7 +111,7 @@ function App() {
             <div>
               <a className="github-link" href="https://github.com/Mlodovico">
                 <span>
-                  <AiFillGithub /> Github
+                  <AiFillGithub size={20} style={{ marginRight: 5 }} /> Github
                 </span>
               </a>
               <a
@@ -118,14 +119,18 @@ function App() {
                 href="https://www.linkedin.com/in/murilo-lodovico-509398167/"
               >
                 <span>
-                  <AiFillLinkedin /> Linkedin
+                  <AiFillLinkedin size={20} style={{ marginRight: 5 }} />{" "}
+                  Linkedin
                 </span>
               </a>
               <a
                 className="instagram-link"
                 href="https://instagram.com/mlodovico?igshid=OGQ5ZDc2ODk2ZA=="
               >
-                <AiOutlineInstagram /> Instagram
+                <span>
+                  <AiOutlineInstagram size={20} style={{ marginRight: 5 }} />{" "}
+                  Instagram
+                </span>
               </a>
             </div>
           </div>
@@ -144,6 +149,18 @@ function App() {
         </div>
 
         <div className="body-sector">
+          <div className="options-div-web">
+            <button
+              className="options-button"
+              onClick={() => setToggleModal(!toggleModal)}
+            >
+              <FiAlignJustify size={30} />
+            </button>
+          {toggleModal &&  window.innerWidth >= 1000 && (
+            <OptionsModal language={handleSwitchBetweenLanguages} />
+          )}
+          </div>
+          
           <h3 className="title-body">{ling.portfolio}</h3>
           <p>{ling.secondDivFirstSubtitle}</p>
           <p>{ling.secondDivFirstParagraph}</p>
