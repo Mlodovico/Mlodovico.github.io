@@ -53,7 +53,7 @@ function App() {
     "MongoDB",
     "Swagger",
     "EC2",
-    "S3"
+    "S3",
   ];
 
   const projects = [

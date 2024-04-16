@@ -31,7 +31,7 @@ export const ptBR = {
     "Check Ins é um projeto de API Java Springboot feito usando Lombok e outras dependências",
   petshopDescription:
     "API Rest de Petshop, desenvolvida com NestJS e TypeORM, com banco de dados MySQL",
-    degree: "Certificado",
+  degree: "Certificado",
   lang: "Escolha idioma",
   lang1: "Portugues",
   lang2: "Ingles",

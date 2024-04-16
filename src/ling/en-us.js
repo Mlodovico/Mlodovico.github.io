@@ -30,8 +30,8 @@ export const enUs = {
     "Check Ins its a Java Springboot API project maded using lombok and other dependencies",
   petshopDescription:
     "Petshop Rest API, developed with NestJS and TypeORM, with MySQL database, and docker containers",
-    degree: "Degree",
-    lang: "Choose language",
+  degree: "Degree",
+  lang: "Choose language",
   lang1: "Portuguese",
   lang2: "English",
   lang3: "Spanish",
