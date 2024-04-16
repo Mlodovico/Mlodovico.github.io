@@ -18,6 +18,8 @@ export const esES = {
     javaSpringDegreeDescription: 'Certificado de formación en Java y Spring',
     webCourseDegreeDescription: 'Curso en Udemy, desarrollando y aprendiendo a utilizar JavaScript y sus frameworks',
     intelliJCourseDescription: 'Curso en Udemy para la optimización de la usabilidad de IntelliJ',
+    checkInsDescription: 'Check Ins es un proyecto de API Java Springboot realizado utilizando Lombok y otras dependencias',
+    petshopDescription: 'API Rest de Petshop, desarrollada con NestJS y TypeORM, con base de datos MySQL',
     lang: 'Elige lengua',
     lang1: 'Portugués',
     lang2: 'Inglés',

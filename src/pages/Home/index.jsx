@@ -34,6 +34,39 @@ function App() {
     setLing(langSelected);
   };
 
+  const projects = [
+    {
+      title: "Petshop API",
+      subtitle: ling.petshopDescription,
+      link: "https://github.com/Mlodovico/petshop-backend-nest",
+    },
+    {
+      title: "Check Ins",
+      subtitle: ling.checkInsDescription,
+      link: "https://github.com/Mlodovico/check-ins",
+    },
+    {
+      title: "Go Barber",
+      subtitle: ling.goBarberDescription,
+      link: "https://github.com/Mlodovico/goBarber",
+    },
+    {
+      title: "Git Hunter",
+      subtitle: ling.gitHunterDescription,
+      link: "https://github.com/Mlodovico/gitHunter",
+    },
+    {
+      title: "Most Used Words",
+      subtitle: ling.mostUsedWorldsDescription,
+      link: "https://github.com/Mlodovico/most-used-words",
+    },
+    {
+      title: "Habits",
+      subtitle: ling.habitsDescription,
+      link: "https://github.com/Mlodovico/habits",
+    },
+  ];
+
   return (
     <div className="App">
       <div className="container">
@@ -156,11 +189,11 @@ function App() {
             >
               <FiAlignJustify size={30} />
             </button>
-          {toggleModal &&  window.innerWidth >= 1000 && (
-            <OptionsModal language={handleSwitchBetweenLanguages} />
-          )}
+            {toggleModal && window.innerWidth >= 1000 && (
+              <OptionsModal language={handleSwitchBetweenLanguages} />
+            )}
           </div>
-          
+
           <h3 className="title-body">{ling.portfolio}</h3>
           <p>{ling.secondDivFirstSubtitle}</p>
           <p>{ling.secondDivFirstParagraph}</p>
@@ -179,26 +212,14 @@ function App() {
           <div className="certificacion-container">
             <p>{ling.firstScrollviewCardCardTitle}</p>
             <div className="card">
-              <Card
-                title="Go Barber"
-                subtitle={ling.goBarberDescription}
-                link="https://github.com/Mlodovico/Go-Barber"
-              />
-              <Card
-                title="Git hunter"
-                subtitle={ling.gitHunterDescription}
-                link="https://github.com/Mlodovico/Git-hunter"
-              />
-              <Card
-                title="Most Used Words"
-                subtitle={ling.mostUsedWorldsDescription}
-                link="https://github.com/Mlodovico/most-used-words"
-              />
-              <Card
-                title="Habits"
-                subtitle={ling.habitsDescription}
-                link="https://github.com/Mlodovico/habits"
-              />
+              {projects.map((project, index) => (
+                <Card
+                  key={index}
+                  title={project.title}
+                  subtitle={project.subtitle}
+                  link={project.link}
+                />
+              ))}
             </div>
           </div>
           <div className="certificacion-container">

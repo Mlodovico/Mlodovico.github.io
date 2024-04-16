@@ -18,6 +18,8 @@ export const enUs = {
     javaSpringDegreeDescription: 'Certificate of Java and Spring',
     webCourseDegreeDescription: 'Udemy Course, developing and learning JavaScript and its frameworks',
     intelliJCourseDescription: 'Udemy Course for optimizing usability of IntelliJ',
+    checkInsDescription: 'Check Ins its a Java Springboot API project maded using lombok and other dependencies',
+    petshopDescription: 'Petshop Rest API, developed with NestJS and TypeORM, with MySQL database, and docker containers',
     lang: 'Choose language',
     lang1: 'Portuguese',
     lang2: 'English',

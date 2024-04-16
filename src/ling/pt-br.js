@@ -18,6 +18,8 @@ export const ptBR = {
     javaSpringDegreeDescription: 'Certificado de formação Java e Spring',
     webCourseDegreeDescription: 'Curso Udemy, desenvolvendo e aprendendo a utilizar JavaScript e seus frameworks',
     intelliJCourseDescription: 'Curso Udemy para otimizacao de usabilidade do IntelliJ',
+    checkInsDescription: 'Check Ins é um projeto de API Java Springboot feito usando Lombok e outras dependências',
+    petshopDescription: 'API Rest de Petshop, desenvolvida com NestJS e TypeORM, com banco de dados MySQL',
     lang: 'Escolha idioma',
     lang1: 'Portugues',
     lang2: 'Ingles',
