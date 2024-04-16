@@ -67,6 +67,34 @@ function App() {
     },
   ];
 
+  const degrees = [
+    {
+      title: ling.degree,
+      subtitle: ling.degreeDescription,
+      link: degree,
+    },
+    {
+      title: "Web Course",
+      subtitle: ling.webCourseDegreeDescription,
+      link: webCourseJavascript,
+    },
+    {
+      title: "Swift",
+      subtitle: ling.swiftDegreeDescription,
+      link: swiftDegree,
+    },
+    {
+      title: "Java Spring",
+      subtitle: ling.javaSpringDegreeDescription,
+      link: javaSpringDegree,
+    },
+    {
+      title: "IntelliJ IDEA Tricks",
+      subtitle: ling.intelliJCourseDescription,
+      link: degree,
+    },
+  ];
+
   return (
     <div className="App">
       <div className="container">
@@ -225,31 +253,14 @@ function App() {
           <div className="certificacion-container">
             <p>{ling.secondScrollviewCardTitle}</p>
             <div className="card">
-              <Card
-                title="Certificado UNIP"
-                subtitle={ling.degreeDescription}
-                link={degree}
-              />
-              <Card
-                title="WebCourse"
-                subtitle={ling.webCourseDegreeDescription}
-                link={webCourseJavascript}
-              />
-              <Card
-                title="Swift"
-                subtitle={ling.swiftDegreeDescription}
-                link={swiftDegree}
-              />
-              <Card
-                title="Java Spring"
-                subtitle={ling.javaSpringDegreeDescription}
-                link={javaSpringDegree}
-              />
-              <Card
-                title="IntelliJ IDEA Tricks"
-                subtitle={ling.intelliJCourseDescription}
-                link={degree}
-              />
+              {degrees.map((degree, index) => (
+                <Card
+                  key={index}
+                  title={degree.title}
+                  subtitle={degree.subtitle}
+                  link={degree.link}
+                />
+              ))}
             </div>
           </div>
         </div>
