@@ -53,7 +53,7 @@
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(8px);
   }
-  
+
   .arrow-up {
     position: absolute;
     right: 10px;
@@ -61,7 +61,7 @@
     color: rgba(255, 255, 255, 0.8);
     filter: blur(0.7px);
   }
-  
+
   .options-button-select {
     width: 100%;
     font-size: 20px;
@@ -73,16 +73,16 @@
     font-family: "Poppins", serif;
     backdrop-filter: blur(8px);
   }
-  
+
   .options-title {
     color: rgba(112, 128, 144, 0.7);
   }
-  
+
   .options-button-select:hover {
     transition-duration: 3s;
     background: rgba(145, 100, 200, 1);
   }
-  
+
   .options-separator {
     width: 100%;
   }

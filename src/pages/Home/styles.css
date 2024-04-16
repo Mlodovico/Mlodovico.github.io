@@ -283,12 +283,12 @@
     border-radius: 8px;
   }
 
-  .github-link span{
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   text-align: center;
-   line-height: 1.5;
+  .github-link span {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.5;
   }
 
   .linkedin-link {
@@ -300,12 +300,12 @@
     border-radius: 8px;
   }
 
-  .linkedin-link span{
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   text-align: center;
-   line-height: 1.5;
+  .linkedin-link span {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.5;
   }
 
   .instagram-link {
@@ -317,7 +317,7 @@
     border-radius: 8px;
   }
 
-  .instagram-link span{
+  .instagram-link span {
     display: flex;
     flex-direction: row;
     justify-content: center;

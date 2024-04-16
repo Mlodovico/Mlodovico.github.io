@@ -1,23 +1,23 @@
 .card-component {
-    flex: 1;
-    height: 18vh;
-    width: 100%;
-    min-width: 10em;
-    white-space: normal;
-    margin: 0px 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    border-radius: 8px;
-    background: rgba(106,90,205, 0.4);
+  flex: 1;
+  height: 18vh;
+  width: 100%;
+  min-width: 10em;
+  white-space: normal;
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  background: rgba(106, 90, 205, 0.4);
 }
 
 .card-component a {
   padding: 10px;
   text-decoration: none;
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
   text-align: center;
 }
