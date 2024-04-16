@@ -34,6 +34,28 @@ function App() {
     setLing(langSelected);
   };
 
+  const techs = [
+    "React",
+    "React Native",
+    "Node",
+    "Angular",
+    "Swift",
+    "Java",
+    "Python",
+    "JavaScript",
+    "Typescript",
+    "Nest",
+    "NextJS",
+    "Multicloud",
+    "Docker",
+    "Git",
+    "MySQL",
+    "MongoDB",
+    "Swagger",
+    "EC2",
+    "S3"
+  ];
+
   const projects = [
     {
       title: "Petshop API",
@@ -142,21 +164,9 @@ function App() {
 
             <h4 className="title">{ling.knowledges}</h4>
             <div className="knowledge">
-              <p>Javascript</p>
-              <p>Typescript</p>
-              <p>Node</p>
-              <p>React</p>
-              <p>React-Native</p>
-              <p>Angular</p>
-              <p>VueJs</p>
-              <p>Java SpringBoot</p>
-              <p>NextJs</p>
-              <p>Git</p>
-              <p>Docker</p>
-              <p>MySQL</p>
-              <p>MongoDB</p>
-              <p>Jenkins</p>
-              <p>MultiCloud</p>
+              {techs.map((tech) => (
+                <p key={tech}>{tech}</p>
+              ))}
             </div>
           </div>
         </div>
