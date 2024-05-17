@@ -1,4 +1,5 @@
 export const ptBR = {
+  type: "Português",
   firtsSubtitle: "Desenvolvedor Full-Stack",
   yearsOld: "26 anos",
   socialMedia: "Redes Sociais",

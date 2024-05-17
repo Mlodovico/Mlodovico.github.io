@@ -1,4 +1,5 @@
 export const enUs = {
+  type: "English",
   firtsSubtitle: "Software Engineer",
   yearsOld: "26 years",
   socialMedia: "Social Media",

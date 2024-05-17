@@ -1,4 +1,5 @@
 export const esES = {
+  type: "Español",
   firtsSubtitle: "Desarrollador Full-Stack",
   yearsOld: "26 años",
   socialMedia: "Redes Sociales",

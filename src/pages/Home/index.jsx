@@ -19,7 +19,8 @@ import degree from "../../assets/degree.pdf";
 import webCourseJavascript from "../../assets/webcourse-javascript.jpg";
 import javaSpringDegree from "../../assets/java-spring-degree.pdf";
 import swiftDegree from "../../assets/swift-degree.pdf";
-import CurriculumPdf from "../../assets/curriculum.pdf";
+import ResumeEn from "../../assets/resumeEn.pdf";
+import Resume from "../../assets/resume.pdf";
 
 import { Card } from "../../components/Card";
 import { OptionsModal } from "../../components/OptionsModal";
@@ -32,6 +33,14 @@ function App() {
 
   const handleSwitchBetweenLanguages = (langSelected) => {
     setLing(langSelected);
+  };
+
+  const handleToggleResume = () => {
+    if (ling.type !== "English") {
+      return Resume;
+    } else {
+      return ResumeEn;
+    }
   };
 
   const techs = [
@@ -152,7 +161,7 @@ function App() {
                 />
                 Linkedin
               </a>
-              <a href={CurriculumPdf}>
+              <a href={handleToggleResume()}>
                 <AiOutlineFileText
                   style={{ marginRight: 5, verticalAlign: "middle" }}
                 />
