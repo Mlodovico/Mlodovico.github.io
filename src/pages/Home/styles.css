@@ -274,25 +274,14 @@
     justify-content: space-between;
   }
 
-  .github-link {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    background: black;
-    padding: 8px;
-    border-radius: 8px;
-  }
-
-  .github-link span {
+  .profile-list {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: center;
-    text-align: center;
-    line-height: 1.5;
+    width: 100%;
   }
 
-  .linkedin-link {
-    display: inline-block;
+  .link {
     text-decoration: none;
     color: white;
     background: #0a66c2;
@@ -300,7 +289,7 @@
     border-radius: 8px;
   }
 
-  .linkedin-link span {
+  .link span {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -308,16 +297,18 @@
     line-height: 1.5;
   }
 
-  .instagram-link {
-    display: inline-block;
+  .resume-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     text-decoration: none;
-    color: white;
-    background: #833ab4;
+    color: black;
+    background: #aeaeae;
     padding: 8px;
     border-radius: 8px;
   }
 
-  .instagram-link span {
+  .resume-link span {
     display: flex;
     flex-direction: row;
     justify-content: center;

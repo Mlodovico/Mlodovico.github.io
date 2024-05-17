@@ -9,6 +9,7 @@ import {
   AiOutlineInstagram,
 } from "react-icons/ai";
 import { FiAlignJustify } from "react-icons/fi";
+import { GrDocumentPdf } from "react-icons/gr";
 
 import "./styles.css";
 
@@ -188,14 +189,18 @@ function App() {
           <div className="profile-text">
             <h4>Murilo Lodovico</h4>
             <p>{ling.firtsSubtitle}</p>
-            <div>
-              <a className="github-link" href="https://github.com/Mlodovico">
+            <div className="profile-list">
+              <a
+                className="link"
+                style={{ background: "black" }}
+                href="https://github.com/Mlodovico"
+              >
                 <span>
                   <AiFillGithub size={20} style={{ marginRight: 5 }} /> Github
                 </span>
               </a>
               <a
-                className="linkedin-link"
+                className="link"
                 href="https://www.linkedin.com/in/murilo-lodovico-509398167/"
               >
                 <span>
@@ -204,7 +209,10 @@ function App() {
                 </span>
               </a>
               <a
-                className="instagram-link"
+                style={{
+                  background: "#833ab4",
+                }}
+                className="link"
                 href="https://instagram.com/mlodovico?igshid=OGQ5ZDc2ODk2ZA=="
               >
                 <span>
@@ -213,6 +221,17 @@ function App() {
                 </span>
               </a>
             </div>
+          <div>
+            <a
+              className="resume-link"
+              href={handleToggleResume()}
+            >
+              <span>
+                <GrDocumentPdf size={20} style={{ marginRight: 5 }} />{" "}
+                {ling.resume}
+              </span>
+            </a>
+          </div>
           </div>
           <div className="options-div">
             <button
