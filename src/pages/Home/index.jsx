@@ -14,8 +14,8 @@ import { GrDocumentPdf } from "react-icons/gr";
 import "./styles.css";
 
 import develop1 from "../../assets/develop_1.json";
-import ProfileImage from "../../assets/back-profile-image.jpeg";
-import ProfileFrontImage from "../../assets/front-profile-image.jpeg";
+import ProfileImage from "../../assets/profile_image_square.jpeg";
+import ProfileFrontImage from "../../assets/back-profile-image.jpeg";
 import degree from "../../assets/degree.pdf";
 import webCourseJavascript from "../../assets/webcourse-javascript.jpg";
 import javaSpringDegree from "../../assets/java-spring-degree.pdf";
